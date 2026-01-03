@@ -1,3 +1,33 @@
+<!-- 🔹 DIA 2 — Estrutura semântica (≈ 45–60 min)
+📚 Estudo (15 min)
+
+Semântica HTML:
+
+header, nav, main, section, article, footer
+
+quando usar cada um
+
+🛠 Prática (30–45 min)
+
+Crie 2 seções:
+
+Sobre mim
+
+Projetos (mesmo vazia)
+
+Use:
+
+h1, h2
+
+p
+
+ul / li
+
+Commit:
+estrutura semântica inicial
+
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,15 +35,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriela Plinski | Desenvolvedora Web</title>
 </head>
+
 <body>
     <header>
         <h1>Gabriela Piovesan Plinski</h1>
+        <nav>
+            <ul>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">E-mail</a></li>
+                <li><a href="#">WhatsApp</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2>Desenvolvedora Web em formação</h2>
+            <p>Estou aprimorando meus conhecimentos em desenvolvimento web, criando projetos para apresentar minhas capacidades enquanto aprendo e aperfeiçoo habilidades que já possuo</p>
+        </section>
     </header>
     <main>
         <section>
-            <h2>Desenvolvedora Web em formação</h2>
-            <p>Estou aprimorando meus conhecimentos em desenvolvimento Web, criando projetos para apresentar minhas capicidades enquanto aprendo e aperfeiçoo habilidades que já possuo</p>
+            <h2> Sobre mim </h2>
+            <section>
+                <p>Atuo desde 2021 com Suporte Técnico e Atendimento ao Cliente, lidando diariamente com resolução de incidentes, acompanhamento de chamados e suporte a usuários, sempre priorizando comunicação clara, organização e qualidade no atendimento.</p>
+                <p>Atualmente curso Sistemas para Internet e iniciei minha jornada prática no desenvolvimento web. Este repositório representa meus estudos e experimentos com lógica de programação, HTML, CSS e JavaScript, conforme avanço na área de Tecnologia da Informação.</p>
+                <p>Aprendo rápido, gosto de entender processos e trabalhar de forma colaborativa. Busco oportunidades em TI, como Suporte Técnico, Estágio ou áreas relacionadas a sistemas e experiência do cliente, onde eu possa crescer tecnicamente e transformar aprendizado em soluções úteis.</p>
+            </section>
+        </section>
+        <section>
+            <h2> Projetos </h2>
+            <article>
+                <h3>Projeto Compra Online</h3>
+                <p>Projeto desenvolvido para praticar estrutura HTML, CSS e JavaScript</p>
+                <a href="#">Ver projeto</a>
+            </article>
+        </section>
+        <section>
+            <h2>Ferramentas</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
         </section>
     </main>
+    <footer>
+        <p>Site feito por <a href="">Gabriela Piovesan Plinski</a>
+        </p>
+    </footer>
 </body>
 </html>
