@@ -1,0 +1,47 @@
+/*
+
+Estilize:
+
+Fonte legível
+
+Largura máxima
+
+Espaçamentos consistentes
+
+*/
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: auto;
+    max-width: 900px;
+    min-height: 100vh;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+main {
+    margin-bottom: 2rem;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    margin-top: 2rem;
+}
