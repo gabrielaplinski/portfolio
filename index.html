@@ -1,53 +1,17 @@
-<!-- 🔹 DIA 2 — Estrutura semântica (≈ 45–60 min)
-📚 Estudo (15 min)
-
-Semântica HTML:
-
-header, nav, main, section, article, footer
-
-quando usar cada um
-
-🛠 Prática (30–45 min)
-
-Crie 2 seções:
-
-Sobre mim
-
-Projetos (mesmo vazia)
-
-Use:
-
-h1, h2
-
-p
-
-ul / li
-
-Commit:
-estrutura semântica inicial
-
--->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <title>Gabriela Plinski | Desenvolvedora Web</title>
 </head>
 
 <body>
     <header>
         <h1>Gabriela Piovesan Plinski</h1>
-        <nav>
-            <ul>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">E-mail</a></li>
-                <li><a href="#">WhatsApp</a></li>
-            </ul>
-        </nav>
         <section>
             <h2>Desenvolvedora Web em formação</h2>
             <p>Estou aprimorando meus conhecimentos em desenvolvimento web, criando projetos para apresentar minhas capacidades enquanto aprendo e aperfeiçoo habilidades que já possuo</p>
@@ -64,8 +28,8 @@ estrutura semântica inicial
             <h2> Projetos </h2>
             <article>
                 <h3>Projeto Compra Online</h3>
-                <p>Projeto desenvolvido para praticar estrutura HTML, CSS e JavaScript</p>
-                <a href="#">Ver projeto</a>
+                <p>Projeto em etapa de conclusão, para praticar estrutura HTML, CSS e JavaScript</p>
+                <a href="https://gabrielaplinski.github.io/product-cart/" target="_blank">Ver projeto</a>
             </article>
         </section>
         <section>
@@ -76,6 +40,30 @@ estrutura semântica inicial
                 <li>JavaScript</li>
             </ul>
         </section>
+        <nav>
+            <h3>Vamos conversar</h3>
+            <ul>
+                <li>
+                    <a href="https://github.com/gabrielaplinski" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/gabrielaplinski/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:gabrielaplinski@outlook.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/5551985734221" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </main>
     <footer>
         <p>Site feito por <a href="">Gabriela Piovesan Plinski</a>
