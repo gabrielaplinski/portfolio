@@ -19,6 +19,7 @@
 html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(221, 221, 221);
+    font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -54,7 +55,6 @@ header h2 {
 h2,
 h3 {
     padding: 2rem 0;
-    font-family: "Montserrat", sans-serif;
     font-weight: normal;
     text-transform: uppercase;
 }
