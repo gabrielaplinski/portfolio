@@ -34,7 +34,6 @@ body {
     min-height: 100vh;
     padding: 150px 20px 0 20px;
     list-style-position: inside;
-    background-color: var(--color5);
 
     display: flex;
     flex-direction: column;
@@ -58,7 +57,19 @@ h3 {
 
 a {
     text-decoration: none;
-    color: rgb(221, 221, 221);
+    color: var(--color1);
+}
+
+a#projeto {
+    transition: transform 0.3s ease;
+}
+
+a:hover {
+    color: var(--color2);
+}
+
+a#projeto:hover {
+    transform: scale(1.02);
 }
 
 p {
@@ -95,6 +106,10 @@ main {
     gap: 1rem;
 }
 
+article {
+    display: flex;
+    flex-direction: column;
+}
 
 .projetos {
     padding-bottom: 5rem;
@@ -109,6 +124,14 @@ main {
     width: 100%;
     text-align: center;
     font-size: .8rem;
+}
+
+.projetos img {
+    transition: transform .3s ease;
+}
+
+.projetos img:hover {
+    transform: scale(1.01);
 }
 
 /*ideia: carrossel com fotos das páginas/funcionalidades de cada projeto*/

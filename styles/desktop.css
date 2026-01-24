@@ -1,13 +1,10 @@
 body {
-    padding-left: 20rem;
-    padding-right: 20rem;
+    max-width: 70vw;
 }
 
 header {
-
-    
-    padding-bottom: 4rem;
-    padding-top: 6rem;
+    padding-bottom: 20rem;
+    padding-top: 10rem;
 
     display: flex;
     flex-direction: row;
@@ -17,10 +14,19 @@ header {
 
 header h1 {
     max-width: 300px;
-    font-size: 4.2rem;
+    font-size: 5rem;
 }
 
 #about {
     max-width: 400px;
     text-align: end;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+#projeto {
+    padding-top: 2rem;
 }
