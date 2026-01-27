@@ -30,3 +30,12 @@ main {
 #projeto {
     padding-top: 2rem;
 }
+
+.projetos img {
+    padding: 40px;
+    transition: transform .5s ease;
+}
+
+.projetos img:hover {
+    transform: scale(1.1);
+}
