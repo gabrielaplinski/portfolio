@@ -1,10 +1,13 @@
 body {
     max-width: 70vw;
+    padding: 0;
+    min-height: 100vh;
 }
 
 header {
     padding-bottom: 20rem;
-    padding-top: 10rem;
+    padding-top: 9rem;
+    min-height: 100vh;
 
     display: flex;
     flex-direction: row;
