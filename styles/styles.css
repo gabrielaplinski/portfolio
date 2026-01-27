@@ -126,14 +126,6 @@ article {
     font-size: .8rem;
 }
 
-.projetos img {
-    transition: transform .3s ease;
-}
-
-.projetos img:hover {
-    transform: scale(1.01);
-}
-
 /*ideia: carrossel com fotos das páginas/funcionalidades de cada projeto*/
 
 .tools {
