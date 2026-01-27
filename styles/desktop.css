@@ -1,27 +1,27 @@
 body {
-    max-width: 70vw;
+    max-width: 1200px;
     padding: 0;
     min-height: 100vh;
+    gap: 0;
 }
 
 header {
-    padding-bottom: 20rem;
-    padding-top: 9rem;
     min-height: 100vh;
+    padding: 20px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: end;
+    align-items: center;
 }
 
 header h1 {
-    max-width: 300px;
+    max-width: 10rem;
     font-size: 5rem;
 }
 
 #about {
-    max-width: 400px;
+    max-width: 600px;
     text-align: end;
 }
 
@@ -41,4 +41,8 @@ main {
 
 .projetos img:hover {
     transform: scale(1.1);
+}
+
+footer {
+    margin-top: 10rem;
 }
