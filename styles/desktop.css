@@ -7,7 +7,7 @@ body {
 
 header {
     min-height: 100vh;
-    padding: 20px;
+    padding: 50px;
 
     display: flex;
     flex-direction: row;
@@ -20,9 +20,18 @@ header h1 {
     font-size: 5rem;
 }
 
+#name {
+    width: 300px;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    flex-basis: 400px;
+}
+
 #about {
     max-width: 600px;
     text-align: end;
+    flex-wrap: wrap;
+    flex-shrink: 1;
 }
 
 main {
@@ -35,7 +44,7 @@ main {
 }
 
 .projetos img {
-    padding: 40px;
+    margin: 40px;
     transition: transform .5s ease;
 }
 

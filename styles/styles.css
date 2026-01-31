@@ -124,10 +124,6 @@ article {
     flex-direction: column;
 }
 
-.projetos {
-    padding-bottom: 5rem;
-}
-
 .projetos p {
     font-size: .8rem;
 }
@@ -165,6 +161,10 @@ article {
 
 .tools ul i:hover {
     transform: scale(1.5);
+}
+
+.hlink {
+    font-weight: 500;
 }
 
 nav {
