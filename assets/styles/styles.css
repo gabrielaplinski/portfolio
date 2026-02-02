@@ -43,7 +43,7 @@ body {
 }
 
 body.light-mode {
-    background: linear-gradient(var(--color2), var(--color3));
+    background: linear-gradient(var(--color2), var(--color3)) fixed;
     color: var(--color5);
 }
 
