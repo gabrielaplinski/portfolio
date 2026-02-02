@@ -28,6 +28,7 @@ html, body {
 
 html {
     background: linear-gradient(var(--color3), var(--color4)) fixed;
+    color-scheme: light dark;
 }
 
 body {
@@ -39,6 +40,30 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+body.light-mode {
+    background: linear-gradient(var(--color2), var(--color3));
+    color: var(--color5);
+}
+
+#settings {
+    position: fixed;
+    background-color: var(--color4);
+    border: 1px solid var(--color1);
+    border-radius: 20px;
+    width: 300px;
+}
+
+#settings form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#settings button {
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 h3 {
@@ -73,19 +98,6 @@ p {
     line-height: 1.6;
     font-size: .95rem;
     color: var(--color2);
-}
-
-#settings {
-    position: fixed;
-    background-color: var(--color4);
-    border: 1px solid var(--color1);
-    border-radius: 20px;
-    width: 200px;
-}
-
-#settings form {
-    display: flex;
-    justify-content: space-around;
 }
 
 header {
