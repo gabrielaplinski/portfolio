@@ -1,3 +1,4 @@
+/*show main*/
 const hiddenContent = document.querySelectorAll('.hide');
 
 const observer = new IntersectionObserver((entries) => {
@@ -10,6 +11,8 @@ const observer = new IntersectionObserver((entries) => {
 
 hiddenContent.forEach((el) => observer.observe(el));
 
+
+/*dark/light mode*/
 const toggleButton = document.getElementById('theme-toggle');
 const currentTheme = localStorage.getItem('theme');
 

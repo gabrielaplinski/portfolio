@@ -8,6 +8,7 @@
     --color1: rgb(221, 221, 221);
     --color2: rgba(221, 221, 221, 0.89);
     --color3: rgb(14, 27, 44);
+    --color3light: rgb(89, 131, 187);
     --color4: rgb(24, 24, 24);
     --color5: rgba(24, 24, 24, 0.39);
 }
@@ -33,7 +34,7 @@ html {
 
 body {
     margin: auto;
-    max-width: 90vw;
+    max-width: 100vw;
     padding: 150px 20px 0 20px;
     list-style-position: inside;
 
@@ -43,8 +44,14 @@ body {
 }
 
 body.light-mode {
-    background: linear-gradient(var(--color2), var(--color3)) fixed;
-    color: var(--color5);
+    background: linear-gradient(var(--color3light), var(--color2)) fixed;
+    color: var(--color4);
+}
+
+body.light-mode p,
+body.light-mode #name h2,
+body.light-mode h3 {
+    color: var(--color4);
 }
 
 #settings {
