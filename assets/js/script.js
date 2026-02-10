@@ -29,3 +29,23 @@ toggleButton.addEventListener('click', () => {
     }
     localStorage.setItem('theme', theme);
 });
+
+/*mudar idioma */
+function changeLang() {
+    let langTest = document.getElementById('lang');
+
+    if (langTest === 'pt') {
+        console.log('Deu certo');
+    }
+}
+
+/*settings hide*/
+window.onscroll = function() {
+    const menu = document.getElementById("settings");
+
+    if (window.scrollY > 50) {
+        menu.classList.add("settings-sidebar");
+    } else {
+        menu.classList.remove("settings-sidebar");
+    }
+}

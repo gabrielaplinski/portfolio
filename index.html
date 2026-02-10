@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav id="settings">
+    <nav id="settings" class="settings">
         <ul>
             <li>
                 <input type="checkbox" id="theme-toggle">
@@ -21,10 +21,11 @@
                 </label>
             </li>
             <li>
-                <select id="lang" onchange="changeLang()">
-                    <option value="pt">Português</option>
-                    <option value="en">English</option>
-                </select>
+                <i class="fa-solid fa-language"></i>
+                <button id="lang" onchange="changeLang()">
+                    <option value="pt">PT</option>
+                    <option value="en">EN</option>
+                </button>
             </li>
         </ul>
     </nav>
