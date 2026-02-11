@@ -53,7 +53,8 @@ body.light-mode {
 
 body.light-mode p,
 body.light-mode #name h2,
-body.light-mode h3 {
+body.light-mode h3,
+body.light-mode a {
     color: var(--color4);
 }
 
