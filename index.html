@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/styles/desktop.css" media="screen and (min-width: 992px)">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="shortcut icon" href="./assets/images/icone.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
     <title>Gabriela Plinski | Desenvolvedora Web</title>
 </head>
@@ -20,12 +21,12 @@
                     <span class="slider"></span>
                 </label>
             </li>
-            <li>
-                <i class="fa-solid fa-language"></i>
-                <button id="lang" onchange="changeLang()">
+            <li class="settings-lang">
+                <span class="material-symbols-outlined" id="ilang">language</span>
+                <select id="oplang" onchange="changeLang()">
                     <option value="pt">PT</option>
                     <option value="en">EN</option>
-                </button>
+                </select>
             </li>
         </ul>
     </nav>

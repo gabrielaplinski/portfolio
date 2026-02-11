@@ -39,7 +39,7 @@ function changeLang() {
     }
 }
 
-/*settings hide*/
+/*settings sidebar*/
 window.onscroll = function() {
     const menu = document.getElementById("settings");
 
@@ -49,3 +49,5 @@ window.onscroll = function() {
         menu.classList.remove("settings-sidebar");
     }
 }
+
+// aparecer EN/PT quando alterado o idioma
